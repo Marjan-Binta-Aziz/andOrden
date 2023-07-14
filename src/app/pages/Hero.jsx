@@ -1,0 +1,45 @@
+import React from 'react'
+import Link from 'next/link'
+import Banner from './Banner'
+
+
+function Hero() {
+  
+  return (
+    <div className="flex items-center justify-around w-full px-10 py-4">
+      <div className="w-7/12">
+      <Banner/>
+      </div>
+      <div className="w-full">
+        <h1 className="text-bold text-5xl">
+          and ORDEN
+          <span className="!text-sm !text-end" >
+            {' '}
+            Collaborative Platform
+          </span>
+        </h1>
+        <p>
+          and ORDEN is a design studio of ARCHITECTURE, LANDSCAPE ARCHITECTURE & INTERIOR based company
+        </p>
+        <div className="flex items-center mt-3 gap-3">
+          <Link
+            href="/Portfolio.pdf"
+            className="flex items-center p-2 px-4 rounded-lg font-semibold hover:translate-y-1 bg-[#d2a50a] !text-dark"
+            target={'_blank'}
+          >
+            Portfolio
+          </Link>
+          <Link
+            href="#"
+            className="bg-[#d2a50a] !text-dark p-2 px-4 rounded-lg font-semibold hover:translate-y-1"
+          >
+            {' '}
+            Contact us
+          </Link>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Hero
