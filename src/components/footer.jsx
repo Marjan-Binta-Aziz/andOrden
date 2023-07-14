@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col">
-          <div className="flex mt-10 mb-12 flex-row items-center   justify-between">
+          <div className="flex mt-10 mb-12 flex-row items-center justify-between">
             <div className="w-16">
               <Image src={logo} alt="logo" srcSet="" />
             </div>
