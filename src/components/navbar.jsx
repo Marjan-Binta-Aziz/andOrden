@@ -51,6 +51,7 @@ const Navbar = () => {
           <CustomLink href="/religious" title="Religious" className="mr-4" />
           <CustomLink href="/others" title="Others" className="mr-4" />
         </div>
+        
         <div>
           <CustomLink href="/" title="Desigens" className="mr-4" />
           <CustomLink href="/" title="3D modelers" className="mr-4" />
