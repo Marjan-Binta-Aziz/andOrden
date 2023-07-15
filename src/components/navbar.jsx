@@ -33,20 +33,21 @@ const Navbar = () => {
   };
   console.log(currentMenu);
   return (
-    <header className="!text-[#d2a50a] w-full px-20 py-3 font-medium flex items-center justify-between">
+    <header className=" w-full px-20 py-3 font-medium flex items-center justify-between">
       <div>
         <Logo />
       </div>
       <nav>
         <div>
           <CustomLink href="/" title="Home" className="mr-4" />
-          <CustomLink href="about" title="About Us" className="mr-4" />
+          <CustomLink href="about" title="About" className="mr-4" />
           <CustomLink href="projects" onClick={() => handleChange('projects')} title="Projects" className="mr-4" />
+          <CustomLink href="blog" onClick={() => handleChange('blog')} title="Blog" className="mr-4" />
           {/* <CustomLink onClick={() => handleChange('team')} title="Team" className="mr-4" />
           <CustomLink onClick={() => handleChange('blog')} title="Blog" className="mr-4" /> */}
         </div>
 
-        <div>
+        {/* <div>
           <CustomLink href="/" title="All" className="mr-4" />
           <CustomLink href="/religious" title="Religious" className="mr-4" />
           <CustomLink href="/others" title="Others" className="mr-4" />
@@ -56,7 +57,7 @@ const Navbar = () => {
           <CustomLink href="/" title="Desigens" className="mr-4" />
           <CustomLink href="/" title="3D modelers" className="mr-4" />
           <CustomLink href="/others" title="Others" className="mr-4" />
-        </div>
+        </div> */}
       </nav>
       <nav>
         <CustomLink href="" title="Contact Us" />

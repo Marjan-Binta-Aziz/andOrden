@@ -1,4 +1,6 @@
+"use client"
 import React from 'react'
+import {motion} from "framer-motion";
 import Link from 'next/link'
 import Banner from './Banner'
 
@@ -6,7 +8,8 @@ import Banner from './Banner'
 function Hero() {
   
   return (
-    <div className="flex items-center justify-around w-full px-10 py-4">
+    <motion.div animate={{ y: 15 }}
+    transition={{ ease: "easeOut", duration: 3 }} className="flex items-center justify-around w-full px-10 py-4">
       <div className="w-7/12">
       <Banner/>
       </div>
@@ -38,7 +41,7 @@ function Hero() {
           </Link>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

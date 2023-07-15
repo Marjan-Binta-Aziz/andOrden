@@ -3,17 +3,28 @@ import Link from 'next/link'
 import React from 'react'
 import logo  from "../../../public/images/logo/orden-ts.png";
 import Image from 'next/image';
-// import {motion} from "framer-motion";
+import {motion} from "framer-motion";
 
-// const MotionLink = motion(Link) ;
+const MotionLink = motion(Link) ;
 const Logo = () => {
   return (
-    <div className='flex items-center justify-center mt-2'>
+    <motion.div
+      animate={{
+        scale: [1, 0, 1, 1, 1],
+        rotate: [0, 0, 180, 180, 0],
+      }}
+      transition={{
+        duration: 2,
+        ease: "easeInOut",
+        times: [0, 0.2, 0.5, 0.8, 1],
+        repeat: Infinity,
+        repeatDelay: 1
+      }}
+    className='box flex items-center justify-center mt-2'>
     <Link href="/" className='w-11 rounded-full'>
-    {/* whileHover={{scale: 1.5}} */}
         <Image src={logo} alt="noi" srcSet="" />
     </Link>
-    </div>
+    </motion.div>
   )
 }
 

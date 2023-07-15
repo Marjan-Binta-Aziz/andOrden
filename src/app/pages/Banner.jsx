@@ -18,7 +18,7 @@ import Image from 'next/image';
 
 export default function App() {
   return (
-    <div className='h-a w-full p-10'>
+    <div className='h-a w-full px-10'>
       <Swiper
         rewind={true}
         spaceBetween={30}
