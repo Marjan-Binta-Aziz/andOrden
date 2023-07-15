@@ -18,7 +18,7 @@ function Projects() {
             <div className='p-2'>
             <h1 className='font-mono'><b className='italic'>Name: </b> {project.name}</h1>
             <p className='font-mono'>Location: {project.location}</p>
-            <p className='font-extralight'> Position: {project.description}</p>
+            <p className='font-light'> Position: {project.description}</p>
             </div>
             </motion.div>
         ))}
