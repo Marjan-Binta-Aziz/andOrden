@@ -26,15 +26,8 @@ function Hero() {
         </p>
         <div className="flex items-center mt-3 gap-3">
           <Link
-            href="/Portfolio.pdf"
-            className="flex items-center p-2 px-4 rounded-lg font-semibold hover:translate-y-1 bg-[#d2a50a] !text-dark"
-            target={'_blank'}
-          >
-            Portfolio
-          </Link>
-          <Link
             href="#"
-            className="bg-[#d2a50a] !text-dark p-2 px-4 rounded-lg font-semibold hover:translate-y-1"
+            className="bg-copper !text-dark p-2 px-4 rounded-lg font-semibold hover:translate-y-1"
           >
             {' '}
             Contact us

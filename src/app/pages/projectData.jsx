@@ -5,7 +5,7 @@ export default [
         "location": "Shibpur, Narshingdi",
         "description": "This 2-pack of 3' flat brushes is great for all different professional and home painting projects. A thick synthetic filament blend holds more paint for saving time and fewer streaks in the finish.",
         "img": "/images/banner/mohor1.jpeg",
-        "Year" : 2012-2014,
+        "year" : "2012-2014",
         "status" : "Completed",
         "type":	"Architecture"
     },
@@ -15,7 +15,7 @@ export default [
         "location": "Shibpur, Narshingdi",
         "description": "This 2-pack of 3' flat brushes is great for all different professional and home painting projects. A thick synthetic filament blend holds more paint for saving time and fewer streaks in the finish.",
         "img": "/images/banner/mohor1.jpeg",
-        "Year" : 2012-2014,
+        "year" : "2012-2014",
         "status" : "Completed",
         "type":	"Architecture"
     },
@@ -25,7 +25,7 @@ export default [
         "location": "Shibpur, Narshingdi",
         "description": "This 2-pack of 3' flat brushes is great for all different professional and home painting projects. A thick synthetic filament blend holds more paint for saving time and fewer streaks in the finish.",
         "img": "/images/banner/mohor1.jpeg",
-        "Year" : 2012-2014,
+        "year" : "2012-2014",
         "status" : "Completed",
         "type":	"Architecture"
     },
@@ -35,7 +35,7 @@ export default [
         "location": "Shibpur, Narshingdi",
         "description": "This 2-pack of 3' flat brushes is great for all different professional and home painting projects. A thick synthetic filament blend holds more paint for saving time and fewer streaks in the finish.",
         "img": "/images/banner/mohor1.jpeg",
-        "Year" : 2012-2014,
+        "year" : "2012-2014",
         "status" : "Completed",
         "type":	"Architecture"
     }

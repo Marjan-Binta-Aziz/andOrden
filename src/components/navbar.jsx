@@ -32,6 +32,8 @@ const Navbar = () => {
 
   };
   console.log(currentMenu);
+
+
   return (
     <header className=" w-full px-20 py-3 font-medium flex items-center justify-between">
       <div>
@@ -46,6 +48,8 @@ const Navbar = () => {
           {/* <CustomLink onClick={() => handleChange('team')} title="Team" className="mr-4" />
           <CustomLink onClick={() => handleChange('blog')} title="Blog" className="mr-4" /> */}
         </div>
+
+
 
         {/* <div>
           <CustomLink href="/" title="All" className="mr-4" />

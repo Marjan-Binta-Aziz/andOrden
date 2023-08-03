@@ -7,7 +7,7 @@ module.exports = {
   ],
   theme: {
     colors:{
-      copper: "#d2a50a",
+      copper: "#fec700",
       dark: "#000000"
     },
     extend: {
