@@ -7,33 +7,36 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-// import './styles.css';
-import mohor1 from '../../../public/images/banner/mohor1.jpeg'
-import mohor2 from '../../../public/images/banner/mohor2.jpeg'
-import mohor3 from '../../../public/images/banner/mohor3.jpg'
-
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import Image from 'next/image';
+import heroData from './data/heroData';
 
 export default function App() {
   return (
-    <div className='h-a w-full px-10'>
-      <Swiper
+    <div className=' px-10'>
+      <Swiper className="!object-fit rounded-2xl"
         rewind={true}
         spaceBetween={30}
         autoplay={{
-          delay: 3000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         pagination={{
           clickable: true,
         }}
-        modules={[Autoplay, Pagination]}
-        className="mySwiper">
-        <SwiperSlide><Image src={mohor1}></Image></SwiperSlide>
-        <SwiperSlide><Image src={mohor2}></Image></SwiperSlide>
-        <SwiperSlide><Image src={mohor3}></Image></SwiperSlide>
+        modules={[Autoplay, Pagination]}>
+          {
+            heroData.map(hero=>
+        <SwiperSlide>
+          <img
+              alt="gallery"
+              className=" h-96 w-full rounded-lg object-cover object-center"
+              src={hero.img}
+            />
+          </SwiperSlide>
+              )
+          }
+        
       </Swiper>
     </div>
   );

@@ -62,6 +62,7 @@ const Navbar = () => {
           <CustomLink href="/" title="3D modelers" className="mr-4" />
           <CustomLink href="/others" title="Others" className="mr-4" />
         </div> */}
+        
       </nav>
       <nav>
         <CustomLink href="" title="Contact Us" />

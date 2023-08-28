@@ -10,7 +10,7 @@ function Hero() {
   return (
     <motion.div animate={{ y: 15 }}
     transition={{ ease: "easeOut", duration: 3 }} className="flex items-center justify-around w-full px-10 py-4">
-      <div className="w-7/12">
+      <div className="w-9/12">
       <Banner/>
       </div>
       <div className="w-full">
