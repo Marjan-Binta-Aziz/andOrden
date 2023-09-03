@@ -1,13 +1,13 @@
 import React from 'react'
-import cardlist from '../pages/teamData'
+import cardlist from '../../pages/teamData'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 
-function About() {
+function Team() {
   return (
     <div className=''>
-      <title>About Us</title>
+      <title>Team</title>
       <div>
       <div className="container my-2 mx-auto md:px-6">
   <section className="mb-32 text-center">
@@ -28,7 +28,7 @@ function About() {
           </div>
           <div className="p-6">
             <h5 className="text-lg font-bold">{card.name}</h5>
-            <p className=" text-neutral-500 dark:text-neutral-300"> {card.position}</p>
+            <p className=" text-sm"> {card.type} | {card.position}</p>
             <ul className="mt-5 mx-auto flex list-inside justify-center">
               <a href="#!" className="px-2 w-10">
                 {/* <!-- facebook --> */}
@@ -55,4 +55,4 @@ function About() {
   )
 }
 
-export default About
+export default Team

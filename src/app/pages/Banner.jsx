@@ -14,7 +14,7 @@ import heroData from './data/heroData';
 export default function App() {
   return (
     <div className=' px-10'>
-      <Swiper className="!object-fit rounded-2xl"
+      <Swiper className="object-fill rounded-2xl"
         rewind={true}
         spaceBetween={30}
         autoplay={{
@@ -27,17 +27,17 @@ export default function App() {
         modules={[Autoplay, Pagination]}>
           {
             heroData.map(hero=>
-        <SwiperSlide>
+        <SwiperSlide className='w-full'>
           <img
               alt="gallery"
-              className=" h-96 w-full rounded-lg object-cover object-center"
+              className="h-96 md:w-full sm:w-fit rounded-lg "
               src={hero.img}
             />
           </SwiperSlide>
               )
           }
-        
       </Swiper>
+
     </div>
   );
 }

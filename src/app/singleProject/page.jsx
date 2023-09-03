@@ -7,7 +7,7 @@ function singleProject() {
       <div className="-m-1 flex flex-wrap md:-m-2">
         {
             gallaryData.map(gallary => 
-            <div className="flex w-1/2 flex-wrap">
+            <div className="flex w-1/3 flex-wrap">
           <div className="w-full p-1 md:p-2">
             <img
               alt="gallery"
