@@ -2,12 +2,12 @@ export default [
     {
         "id": 1,
         "name": "ROOFTOP CAFE AT IMPETUS CENTER",
-        "location": "Shibpur, Narshingdi",
-        "description": "This 2-pack of 3' flat brushes is great for all different professional and home painting projects. A thick synthetic filament blend holds more paint for saving time and fewer streaks in the finish.",
+        "location": "Tejgaon, Dhaka",
+        "year" : "2020",
         "img": "images/projects/imp.jpg",
-        "year" : "2012-2014",
         "status" : "Completed",
-        "type":	"Architecture"
+        "type":	"Interior & Landscape",
+        "description": "This 2-pack of 3' flat brushes is great for all different professional and home painting projects. A thick synthetic filament blend holds more paint for saving time and fewer streaks in the finish.",
     },
     {
         "id": 2,
@@ -23,11 +23,11 @@ export default [
         "id": 3,
         "name": "GOPALGANJ SADAR EIDGAH",
         "location": "Shibpur, Narshingdi",
-        "description": "This 2-pack of 3' flat brushes is great for all different professional and home painting projects. A thick synthetic filament blend holds more paint for saving time and fewer streaks in the finish.",
         "img": "images/projects/ig.jpg",
-        "year" : "2012-2014",
-        "status" : "Completed",
-        "type":	"Architecture"
+        "year" : "2019-Present",
+        "status" : "Ongoing",
+        "description": "This 2-pack of 3' flat brushes is great for all different professional and home painting projects. A thick synthetic filament blend holds more paint for saving time and fewer streaks in the finish.",
+        "type":	"Master Planing & Landscape"
     },
     
 ]
