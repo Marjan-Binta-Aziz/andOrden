@@ -25,7 +25,7 @@ function Team() {
           <div className="overflow-hidden bg-cover bg-no-repeat">
             <img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.jpg" className=" rounded-full" 
             />
-            <a href="#!">
+            <a href="#">
               <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden"></div>
             </a>
           </div>
@@ -33,15 +33,15 @@ function Team() {
             <h5 className="text-lg font-bold">{card.name}</h5>
             <p className=" text-sm"> {card.type} | {card.position}</p>
             <ul className="mt-5 mx-auto flex list-inside justify-center">
-              <a href="#!" className="px-2 w-10">
+              <a href="#" className="px-2 w-10">
                 {/* <!-- facebook --> */}
                 <FontAwesomeIcon icon={faFacebook}/>
               </a>
-              <a href="#!" className="px-2 w-10">
+              <a href="#" className="px-2 w-10">
                 {/* <!-- Linkedin --> */}
                 <FontAwesomeIcon icon={faLinkedin}/>
               </a>
-              <a href="#!" className="px-2 w-10">
+              <a href="#" className="px-2 w-10">
                 {/* <!-- Twitter --> */}
                 <FontAwesomeIcon icon={faTwitter}/>
               </a>

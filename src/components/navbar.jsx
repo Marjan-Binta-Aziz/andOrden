@@ -26,14 +26,7 @@ const CustomLink = ({href, title, className = ''}) => {
   );
 };
 const Navbar = () => {
-  const [currentMenu, setCurrentMenu] = useState('');
-  const handleChange = (path) => {
-    setCurrentMenu(path);
-    console.log(path);
-  };
-  console.log(currentMenu);
-
-  const [isOpen, setIsOpen] =useState(false)
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <header className= "sticky top-0 bg-dark w-full px-20 py-3 font-medium flex items-center justify-between">
@@ -81,21 +74,7 @@ const Navbar = () => {
 
           <CustomLink href="/projects" title="Projects" className="mr-4" />
           <CustomLink href="/blog"  title="Blog" className="mr-4" />
-          {/* <CustomLink onClick={() => handleChange('team')} title="Team" className="mr-4" />
-          <CustomLink onClick={() => handleChange('blog')} title="Blog" className="mr-4" /> */}
         </div>
-
-        {/* <div>
-          <CustomLink href="/" title="All" className="mr-4" />
-          <CustomLink href="/religious" title="Religious" className="mr-4" />
-          <CustomLink href="/others" title="Others" className="mr-4" />
-        </div>
-        
-        <div>
-          <CustomLink href="/" title="Desigens" className="mr-4" />
-          <CustomLink href="/" title="3D modelers" className="mr-4" />
-          <CustomLink href="/others" title="Others" className="mr-4" />
-        </div> */}
       </nav>
       <nav>
         <CustomLink href="" title="Contact Us" />

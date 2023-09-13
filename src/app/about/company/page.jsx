@@ -6,7 +6,6 @@ function Company() {
         <div className=''>
       <title>Company</title>
       <div>
-
       </div>
 
 <button
