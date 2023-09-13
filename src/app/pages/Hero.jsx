@@ -9,7 +9,7 @@ function Hero() {
   
   return (
     <motion.div animate={{ y: 15 }}
-    transition={{ ease: "easeOut", duration: 3 }} className="flex justify-between flex-row items-center px-10 py-4 w-full">
+    transition={{ ease: "easeOut", duration: 3 }} className="flex justify-between  items-center px-10 py-4 w-full">
       <div className="w-9/12">
       <Banner/>
       </div>

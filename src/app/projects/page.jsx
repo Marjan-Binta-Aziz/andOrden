@@ -16,11 +16,11 @@ function Projects() {
                   <img src={project.img} alt="projects" className="h-56 rounded-xl w-full" />
                 </a>
                 <div className="text-copper px-9 py-5">
-                  <h2 className="text-center text-xl font-bold font-serif uppercase">{project.name}</h2>
-                  <h2 className="text-center text-xl">Year: {project.year}</h2>
+                  <h2 className="text-center text-sm font-bold uppercase">{project.name}</h2>
+                  <h2 className="text-center text-xs">Year: {project.year}</h2>
 
-                  <p className="">Location: {project.location}</p>
-                  <p className="">Type: {project.type}</p>
+                  <p className="text-xs">Location: {project.location}</p>
+                  <p className="text-xs">Type: {project.type}</p>
                 </div>
               </div>
             </div>

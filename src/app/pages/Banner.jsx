@@ -1,22 +1,24 @@
 "use client"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import projects from '../pages/projectData';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
+import 'swiper/css/zoom';
 import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import heroData from './data/heroData';
 
 export default function App() {
   return (
-    <div className=' px-10'>
-      <Swiper className="object-fill rounded-2xl"
+    <div>
+      <Swiper className="w-full h-full rounded-2xl gap-4"
+        zoom={true}
         rewind={true}
-        spaceBetween={30}
+        spaceBetween={10}
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
@@ -24,20 +26,21 @@ export default function App() {
         pagination={{
           clickable: true,
         }}
-        modules={[Autoplay, Pagination]}>
+        modules={[Autoplay, Pagination,Navigation]}>
           {
-            heroData.map(hero=>
-        <SwiperSlide className='w-full'>
-          <img
+            projects.map((project) =>
+        <SwiperSlide className="flex justify-center items-center rounded-lg"
+        >
+          <div className='block overflow-hidden h-96'>
+          <img className='relative'
               alt="gallery"
-              className="h-96 md:w-full sm:w-fit rounded-lg "
-              src={hero.img}
+              src={project.img}
             />
+          </div>
           </SwiperSlide>
               )
           }
       </Swiper>
-
-    </div>
+      </div>
   );
 }
