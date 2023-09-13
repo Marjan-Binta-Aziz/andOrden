@@ -25,9 +25,7 @@ function Team() {
           <div className="overflow-hidden bg-cover bg-no-repeat">
             <img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.jpg" className=" rounded-full" 
             />
-            <a href="#">
-              <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden"></div>
-            </a>
+  
           </div>
           <div className="p-6">
             <h5 className="text-lg font-bold">{card.name}</h5>
