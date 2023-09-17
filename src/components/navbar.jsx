@@ -29,7 +29,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className= "sticky top-0 bg-dark w-full px-20 py-3 font-medium flex items-center justify-between">
+    <header className= "sticky top-0 bg-dark w-full  px-20 py-3 font-medium flex items-center justify-between">
       <div>
         <Logo />
       </div>

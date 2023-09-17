@@ -17,6 +17,7 @@
 }
 
 body {
-  color: rgb(254,199,0,255);
+  /* color: rgb(254,199,0,255); */
+  color: rgb(255,255,255,255);
   background-color: black;
 }

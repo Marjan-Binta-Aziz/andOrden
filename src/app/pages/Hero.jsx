@@ -2,28 +2,67 @@
 import React from 'react'
 import {motion} from "framer-motion";
 import Link from 'next/link'
-import Banner from './Banner'
-
+import projects from '../pages/projectData';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/zoom';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { Swiper, SwiperSlide } from 'swiper/react';
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 function Hero() {
   
   return (
     <motion.div animate={{ y: 15 }}
-    transition={{ ease: "easeOut", duration: 3 }} className="flex justify-between  items-center px-10 py-4 w-full gap-4">
-      <div className="w-9/12">
-      <Banner/>
+    transition={{ ease: "easeOut", duration: 3 }} className="flex justify-between  items-center px-10 py-1 w-full gap-4 relative">
+      <div className="static w-9/12">
+      <Swiper className="w-full h-full rounded-2xl gap-4"
+        slidesPerView={1}
+        centeredSlides={true}
+        zoom={true}
+        rewind={true}
+        navigation={true}
+        spaceBetween={30}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+          type: 'fraction',
+        }}
+        modules={[Autoplay, Pagination,Navigation]}>
+          {
+            projects.map((project) =>
+        <SwiperSlide className=""
+        >
+          <div className='h-96'>
+          <img className='object-none object-center'
+              alt="gallery"
+              src={project.img}
+            />
+          </div>
+          </SwiperSlide>
+              )
+          }
+      </Swiper>
+
       </div>
       <div className="w-full">
-        <h1 className="text-bold text-5xl">
+        <h1 className="text-copper text-bold text-5xl">
           and ORDEN
+        </h1>
+          <div>
           <span className="!text-sm !text-end" >
             {' '}
             Collaborative Platform
           </span>
-        </h1>
         <p>
           and ORDEN is a design studio of ARCHITECTURE, LANDSCAPE ARCHITECTURE & INTERIOR based company
         </p>
+          </div>
         <div className="flex items-center mt-3 gap-3">
           <Link
             href="#"
