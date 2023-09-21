@@ -40,14 +40,15 @@ export default [
         "description": " She for last two years. She is a dedicated and enthusistic team member. She is the head design coordinator of And Orden's collaborative design platform. She takes responsibility of design projects with utmost sincerity.",
     },
     {
-        "id": 5,
-        "name": "Manifa Rehnuma",
+        "id": 4,
+        "name": "Md. Nazmus Sakib",
         "category": "Principals",
-        "type": "Landscape Architect",
-        "position": "LandCo-Founder",
+        "type": "Architect",
+        "position": "Design Coordinator",
         "img": "/images/banner/mohor1.jpeg",
-        "education": "Masters of Landscape Architecture(MLA)in UPM, Malaysia and become the first ever member from Bangladesh of International Federation of Landscape Architect (IFLA)",
-        "description": " She completed her B.Arch. in 2011 from BUET. She worked in 'Synthesis Architects' from 2010 to 2012 as an Assistant Architect and developed her skills as a professional. Currently is she an adjunct faculty in Military Institute of Science and Technology (MIST). She was a full-time faculty of MIST from 2017-2018 as assistant professor.Now she is working on prominent Landscape projects in government and private sectors",
+        "education": "Bachelor in Architecture (B.Arch)bBRAC, Bangladesh",
+        "description": " She for last two years. She is a dedicated and enthusistic team member. She is the head design coordinator of And Orden's collaborative design platform. She takes responsibility of design projects with utmost sincerity.",
     },
+    
     
 ]

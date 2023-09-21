@@ -17,7 +17,7 @@ function Team() {
       Meet the <i>Team</i>
     </h2>
 
-    <div className="grid gap-x-10 md:grid-cols-3 lg:gap-x-12 md:mx-40 content-center">
+    <div className="grid gap-x-10 md:grid-cols-4 lg:gap-x-12 md:mx-40 content-center">
     {cardlist.map(card => (
       <>
       <div className="mb-6 lg:mb-0">
