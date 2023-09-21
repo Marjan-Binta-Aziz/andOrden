@@ -39,7 +39,7 @@ function Hero() {
         <SwiperSlide className=""
         >
           <div className='h-96'>
-          <img className='!object-none !object-bottom'
+          <img className='h-full w-full !object-none !object-center'
               alt="gallery"
               src={project.img}
             />
