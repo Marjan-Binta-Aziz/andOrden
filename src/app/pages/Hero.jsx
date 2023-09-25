@@ -17,7 +17,7 @@ function Hero() {
   return (
     <motion.div animate={{ y: 15 }}
     transition={{ ease: "easeOut", duration: 3 }} className="flex justify-between  items-center px-10 py-1 w-full gap-4 relative">
-      <div className="static w-9/12">
+      <div className=" w-9/12">
       <Swiper className="w-full h-full rounded-2xl gap-4"
         slidesPerView={1}
         centeredSlides={true}
@@ -32,6 +32,7 @@ function Hero() {
         pagination={{
           clickable: true,
           type: 'fraction',
+          color: '#000000',
         }}
         modules={[Autoplay, Pagination,Navigation]}>
           {
@@ -39,7 +40,7 @@ function Hero() {
         <SwiperSlide className=""
         >
           <div className='h-96'>
-          <img className='h-full w-full !object-none !object-center'
+          <img className='h-full w-full !object-cover'
               alt="gallery"
               src={project.img}
             />
@@ -63,7 +64,7 @@ function Hero() {
           and ORDEN is a design studio of ARCHITECTURE, LANDSCAPE ARCHITECTURE & INTERIOR based company
         </p>
           </div>
-        <div className="flex items-center mt-3 gap-3">
+        {/* <div className="flex items-center mt-3 gap-3">
           <Link
             href="#"
             className="bg-copper !text-dark p-2 px-4 rounded-lg font-semibold hover:translate-y-1"
@@ -71,7 +72,7 @@ function Hero() {
             {' '}
             Contact us
           </Link>
-        </div>
+        </div> */}
       </div>
     </motion.div>
   )

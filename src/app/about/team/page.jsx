@@ -21,8 +21,8 @@ function Team() {
     {cardlist.map(card => (
       <>
       <div className="mb-6 lg:mb-0">
-        <div className="block rounded-lg">
-          <div className="overflow-hidden bg-cover bg-no-repeat">
+        <div className="block rounded-lg" key ={card.id}>
+          <div className="overflow-hidden bg-cover bg-no-repeat"  key ={card.id}>
             <img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.jpg" className=" rounded-full" 
             />
   
