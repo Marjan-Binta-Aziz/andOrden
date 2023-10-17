@@ -2,19 +2,15 @@ import React from 'react'
 
 function Blog() {
   return (
-    <div class="container mx-auto md:px-6 p-20">
+    <div class="container mx-auto md:px-6 px-20">
       <section class="mb-32 text-center md:text-left">
         <h2 class="mb-12 text-center text-3xl font-bold">Latest articles</h2>
     
         <div class="mb-12 grid items-center gap-x-6 md:grid-cols-2 xl:gap-x-12">
           <div class="mb-6 md:mb-0">
-            <div class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
-              data-te-ripple-init data-te-ripple-color="light">
+            <div class=" mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20">
+              <a href="#">
               <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/018.jpg" class="w-full" alt="Louvre" />
-              <a href="#!">
-                <div
-                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]">
-                </div>
               </a>
             </div>
           </div>

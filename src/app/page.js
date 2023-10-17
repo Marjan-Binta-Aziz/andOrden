@@ -1,9 +1,10 @@
-import Hero from './pages/Hero.jsx'
+import Hero from "./Hero/page";
+import Filters from "./pages/Filters";
 
 export default function Home() {
   return (
     <main>
-      <Hero/>
+      <Filters/>
     </main>
-  )
+  );
 }

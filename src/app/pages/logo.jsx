@@ -18,11 +18,11 @@ const Logo = () => {
         ease: "easeInOut",
         times: [0, 0.2, 0.5, 0.8, 1],
         repeat: Infinity,
-        repeatDelay: 1
+        repeatDelay: 2
       }}
     className='flex items-center justify-center mt-2'>
-    <Link href="/" className='w-11 rounded-full'>
-        <Image src={logo} alt="noi" srcSet="" />
+    <Link href="/" className='block rounded-full'>
+        <Image src={logo} alt="logo" srcSet="" />
     </Link>
     </motion.div>
   )

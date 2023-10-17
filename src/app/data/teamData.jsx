@@ -5,7 +5,7 @@ export default [
     category: 'Principals',
     type: 'Landscape Architect',
     position: 'Co-Founder',
-    img: '/images/banner/mohor1.jpeg',
+    img: '/images/team/Manifa.jpg',
     education:
       'Masters of Landscape Architecture(MLA)in UPM, Malaysia and become the first ever member from Bangladesh of International Federation of Landscape Architect (IFLA)',
     description:
@@ -39,7 +39,7 @@ export default [
     category: 'Principals',
     type: 'Architect',
     position: 'Design Coordinator',
-    img: '/images/banner/mohor1.jpeg',
+    img: '/images/team/raka.jpg',
     education: 'Bachelor in Architecture (B.Arch)BRAC, Bangladesh',
     description:
       " She for last two years. She is a dedicated and enthusistic team member. She is the head design coordinator of And Orden's collaborative design platform. She takes responsibility of design projects with utmost sincerity.",
@@ -50,7 +50,7 @@ export default [
     category: 'Principals',
     type: 'Architect',
     position: 'Design Coordinator',
-    img: '/images/banner/mohor1.jpeg',
+    img: '/images/team/nipu.jpg',
     education: 'Bachelor in Architecture (B.Arch) BRAC, Bangladesh',
     description:
       " She for last two years. She is a dedicated and enthusistic team member. She is the head design coordinator of And Orden's collaborative design platform. She takes responsibility of design projects with utmost sincerity.",

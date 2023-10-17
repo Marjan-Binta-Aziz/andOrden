@@ -1,7 +1,7 @@
 export default [
     {
         "id": 1,
-        "name": "ROOFTOP CAFE AT IMPETUS CENTER",
+        "name": "Rooftop Cafe at Impetus Center",
         "location": "Tejgaon, Dhaka",
         "year" : "2020",
         "img": "images/projects/imp.jpg",
@@ -21,7 +21,7 @@ export default [
     },
     {
         "id": 3,
-        "name": "GOPALGANJ SADAR EIDGAH",
+        "name": "Gopalganj Sadar Eidgah",
         "location": "Shibpur, Narshingdi",
         "img": "images/projects/ig-1.jpg",
         "year" : "2019-Present",
